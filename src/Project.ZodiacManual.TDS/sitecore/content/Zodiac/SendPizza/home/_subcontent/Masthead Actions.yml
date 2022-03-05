@@ -1,0 +1,43 @@
+---
+ID: "f216ac87-a0e6-43c7-8ade-ef3d74afcca6"
+Parent: "6f63f40c-260a-4a58-99c7-53113845eba1"
+Template: "537b2be7-2262-4f02-b656-3da2481e0fb6"
+Path: /sitecore/content/Zodiac/SendPizza/home/_subcontent/Masthead Actions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16165772-8956-46bf-ad8e-be327c0d84bb"
+      Hint: Secondary Link
+      Value: |
+        <link linktype="external" text="Track my Pizza" url="http://#track-my-pizza" anchor="" target="_blank" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220221T220350Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "598b6c37-4c09-421e-a40c-5781de286af0"
+      Hint: Primary Link
+      Value: |
+        <link linktype="external" text="Order Now!" class="btn btn--primary" url="http://#" anchor="" target="_blank" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38a7a94d-2a55-4806-b244-cc8466d7cf52"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220221T222322Z

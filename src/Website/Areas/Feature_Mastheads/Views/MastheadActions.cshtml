@@ -1,0 +1,23 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Mastheads.Models.MastheadActionsModel>
+
+@if (IsEditing)
+{
+	@Model.PrimaryLink.Rendered
+	@Model.SecondaryLink.Rendered
+}
+else
+{
+	if (!string.IsNullOrEmpty(Model.PrimaryLink.Url))
+	{
+		<a href="@Model.PrimaryLink.Url" title="@Model.PrimaryLink.Title" target="@Model.PrimaryLink.Target" class="btn bg-gradient-primary mt-4">
+			@Model.PrimaryLink.Text
+		</a>
+	}
+
+	if (!string.IsNullOrEmpty(Model.SecondaryLink.Url))
+	{
+		<a href="@Model.SecondaryLink.Url" title="@Model.SecondaryLink.Title" target="@Model.SecondaryLink.Target" class="btn text-primary shadow-none mt-4">
+			@Model.SecondaryLink.Text
+		</a>
+	}
+}

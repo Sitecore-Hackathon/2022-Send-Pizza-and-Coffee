@@ -1,0 +1,10 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ContentSectionModel>
+<div class="card h-100">
+	<div class="card-body">
+		<h5 class="card-title">@Model.Heading</h5>
+		<div class="card-text">@Model.Copy</div>
+	</div>
+	<div class="card-footer">
+		<a href="@Model.TrailingLink.Url" target="@Model.TrailingLink.Target">@Model.TrailingLink.Text</a>
+	</div>
+</div>

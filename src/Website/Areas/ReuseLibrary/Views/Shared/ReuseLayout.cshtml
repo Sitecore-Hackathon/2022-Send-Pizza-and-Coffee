@@ -1,0 +1,65 @@
+﻿@using Constellation.Feature.PageTagging.Models
+@using Constellation.Foundation.ModelMapping
+@using Sitecore.Links
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Sites
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+	Layout = null;
+	var viewModel = MappingContext.Current.MapItemToNew<PageMetadata>(Model.Item);
+
+	// This is here because the default LinkManager config for this site does not force the inclusion of the server and scheme, which we need for Canonicals.
+	var options = LinkManager.GetDefaultUrlBuilderOptions();
+	options.AlwaysIncludeServerUrl = true;
+	options.LanguageEmbedding = LanguageEmbedding.Never;
+	options.LowercaseUrls = true;
+	options.EncodeNames = true;
+	options.Site = SiteContext.Current;
+	var canonical = LinkManager.GetItemUrl(Model.Item, options);
+}
+
+<!DOCTYPE html>
+<html lang="@Model.Item.Language.Name">
+<head>
+	<meta charset=utf-8>
+	<meta content="IE=edge" http-equiv=X-UA-Compatible>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1, width=device-width, user-scalable=no" />
+	<title>@viewModel.BrowserTitle</title>
+	<link rel="canonical" href="@canonical" />
+	@Html.Sitecore().Placeholder("HtmlHead")
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	<link rel=stylesheet href="/areas/reuselibrary/content/styles.css">
+	@Html.Sitecore().VisitorIdentification()
+</head>
+<body>
+	@Html.Sitecore().Placeholder("Alerts")
+	Header
+	<main role="main">
+		<div class="container">
+			@Html.Sitecore().Placeholder("Masthead")
+			@Html.Sitecore().Placeholder("Rows")
+		</div>
+	</main>
+	<!-- Footer -->
+	<footer>
+		Footer
+	</footer>
+	<!-- JavaScript -->
+	<script>
+		window.resourceBasePath = "/areas/reuselibrary/scripts/";
+
+		var ajax = new XMLHttpRequest();
+		ajax.open("GET", "/areas/reuselibrary/content/images/svgsheet.svg", true);
+		ajax.send();
+		ajax.onload = function () {
+			var div = document.createElement("div");
+			div.style.display = 'none';
+			div.innerHTML = ajax.responseText;
+			document.body.insertBefore(div, document.body.childNodes[0]);
+		}
+	</script>
+	<script src="/areas/reuselibrary/scripts/vendors~main.bundle.js"></script>
+	<script src="/areas/reuselibrary/scripts/main.bundle.js"></script>
+</body>
+</html>

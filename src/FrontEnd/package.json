@@ -1,0 +1,48 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "@popperjs/core": "^2.9.2",
+    "axios": "^0.19",
+    "bootstrap": "^5.0.2",
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "cross-env": "^7.0",
+    "font-awesome": "^4.7.0",
+    "handlebars": "^4.7.7",
+    "handlebars-layouts": "^3.1.4",
+    "jquery": "^3.5.1",
+    "laravel-mix": "^6.0.6",
+    "laravel-mix-handlebars": "^1.0.3",
+    "lodash": "^4.17.21",
+    "mix-env-file": "^0.1.1",
+    "moment": "^2.29.1",
+    "pusher": "^5.0.1",
+    "pusher-js": "^7.0.6",
+    "react-dom": "^17.0.2",
+    "react-notifications-component": "^3.4.1",
+    "require": "^2.4.20",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.15.2",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.24",
+    "react": "^17.0.2"
+  }
+}

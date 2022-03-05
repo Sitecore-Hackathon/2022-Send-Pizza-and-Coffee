@@ -1,0 +1,101 @@
+---
+ID: "8cab87ad-8291-4fd3-bd77-ee0d7b653f54"
+Parent: "99100d02-c8cb-4984-a3a6-fdbb04303c41"
+Template: "84e73e6c-bd1c-43df-b4dd-3f9924be6007"
+Path: /sitecore/content/Zodiac/SendPizza/home
+DB: master
+SharedFields:
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: "{C1FF011E-B02A-44E3-8444-9FC89CFC28CE}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Zodiac Manual Site Owner|pe|+item:write|^*|pd|+item:write|^*|
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1A34A833-3633-4555-B186-D2FBD9A4A520}"
+          s:ccb="Clear on publish"
+          s:ds="{9A58DD21-6581-45EC-AE98-C12C59084596}"
+          s:par="" />
+        <r
+          uid="{280480A8-3DEE-4BF9-BD77-F3B5A1875D49}"
+          s:ccb="Clear on publish"
+          s:ds="{D9EE285A-476E-4BC2-8E17-3BDA3E7649ED}"
+          s:par="" />
+        <r
+          uid="{45E0FB4A-3001-4F63-B5AE-473028F75D4C}"
+          p:after="r[@uid='{280480A8-3DEE-4BF9-BD77-F3B5A1875D49}']"
+          s:ds="{C212C7E6-8175-443C-AAC1-F8104DB7EF22}"
+          s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+          s:par=""
+          s:ph="Form"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4BF2F074-2B02-4E31-A77B-8E2EFA2C61A2}"
+          p:after="*[1=2]"
+          s:ccb="Clear on publish"
+          s:ds="{07C81F9F-CF62-4AC3-A5D9-493E5BCFC3EC}"
+          s:par="" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1819e6ed-34fb-4f4b-8c28-6d55382bcd9f"
+      Hint: Intro Copy
+      Value: Sitecore MVPs are given special discounts for things like training, sandboxes, exams, and other perks like cool swag gift bags. If you are a Sitecore MVP, you can use the provided tracking number to track the delivery status of your Sitecore care package.
+    - ID: "1a61ece0-2b10-458c-81c7-1e080222da7b"
+      Hint: Browser Title
+      Value: Sitecore MVP Swag Tracker
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200811T171650Z
+    - ID: "3ce399c9-4d08-4f67-a41e-8151fa4f622a"
+      Hint: Meta Publisher
+      Value: Send Pizza Team
+    - ID: "40bb97f7-4966-4eb6-808c-75af454af247"
+      Hint: Meta Author
+      Value: Send Pizza Team
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b04c6dd0-806c-401c-9d1b-bdda8c96eab6"
+    - ID: "911a2a84-64b8-4113-ab31-4f519ec3ac84"
+      Hint: Copy
+      Value: 
+    - ID: "94016f9f-ff2c-4192-9a9f-8fd1d89b1f13"
+      Hint: Heading
+      Value: Sitecore MVP Swag Tracker
+    - ID: "a5526764-954b-4500-b295-cdaaa6d73f0e"
+      Hint: Featured Image
+      Value: |
+        <image mediaid="{A6693F59-BCE1-402C-9EFB-D569EB660ED1}" />
+    - ID: "a8fad4b5-f582-4b63-9031-8fa8ea8b6d06"
+      Hint: Navigation Title
+      Value: Sitecore MVP Swag Tracker
+    - ID: "aadca14b-9b41-4311-a4bc-7d8c395fcf19"
+      Hint: Inherit Author and Publisher
+      Type: Checkbox
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220305T064232Z
+    - ID: "ed10569e-d54a-4f22-a337-3105237ffb58"
+      Hint: Subheading
+      Value: Your care package in on the way

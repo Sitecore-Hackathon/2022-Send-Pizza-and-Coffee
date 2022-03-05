@@ -1,0 +1,53 @@
+---
+ID: "31175fd0-0f9b-460f-9073-bd68f3face1c"
+Parent: "0c6414ed-dbcd-4fe7-a7ed-6343a24a2aea"
+Template: "0c6414ed-dbcd-4fe7-a7ed-6343a24a2aea"
+Path: /sitecore/templates/Feature/Tracking/Track Your Order/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ae78d0b-d6ad-40c6-ac8a-f106b4ea77d6"
+      Hint: Tracking Number Placeholder
+      Value: 001
+    - ID: "234894df-ffde-486a-8360-24d98b278f76"
+      Hint: Home Pin
+      Value: |
+        <image mediaid="{B834DCE9-3CE0-47D2-B90E-E49688211CF3}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220304T145530Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f1837280-f5a5-4653-bb1f-8012b9fb6e15"
+    - ID: "988e7250-8278-4a54-8c12-c026f8c2a293"
+      Hint: Restaurant Pin
+      Value: |
+        <image mediaid="{ECF80026-FCB3-41EE-B9ED-01FDF7DF3988}" />
+    - ID: "9ab2d6f6-a0c2-4ed7-8216-932340536e33"
+      Hint: Tracking Number Label
+      Value: Tracking Number
+    - ID: "a028db70-3e19-4124-9526-9e9aba90c89d"
+      Hint: Headline
+      Value: "TRACK MY PIZZA!"
+    - ID: "a07f9f85-2a8d-42a1-a0bb-bb06c57bed86"
+      Hint: Delivery Pin
+      Value: |
+        <image mediaid="{B82B0838-C228-4484-9C65-979EA369BD6A}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220304T164710Z

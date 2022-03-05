@@ -1,0 +1,31 @@
+---
+ID: "b6936fc3-c6cb-42fc-b362-fcc18cb00472"
+Parent: "fb695449-80b9-4c11-887f-6708722165e9"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Zodiac/SendPizza/Navigation/Footer Links
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {191DC1A3-1A43-46D6-B831-13E0B1DE6C8A}
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220304T203214Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a237901b-5628-460c-b97b-ea58823507ee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220304T203822Z

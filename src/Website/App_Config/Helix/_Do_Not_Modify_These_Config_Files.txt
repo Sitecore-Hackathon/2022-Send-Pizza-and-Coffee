@@ -1,0 +1,1 @@
+﻿This config file loads a few Items into Sitecore that are required by Zodiac. Don't alter or remove the config file.

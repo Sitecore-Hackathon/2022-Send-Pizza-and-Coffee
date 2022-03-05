@@ -1,0 +1,22 @@
+﻿@using Sitecore.Mvc
+@inherits Constellation.Foundation.Labels.EditorCompatibleView<Feature.Tracking.Models.TrackYourOrderViewModel, Feature.Tracking.Models.TrackYourOrderLabels>
+
+<div id="tracking" 
+     data-google-maps-key=""
+     data-pusher-key="b1eece44fd7ba350e16e"
+     data-pusher-cluster="us2"
+     data-simulation-url="https://danny8k.shadowx4fox.org/api/tracking"
+     data-form-headline="@Model.Headline"
+     data-form-copy="@Model.Copy"
+     data-form-tracking-number="@Model.TrackingNumberLabel"
+     data-form-tracking-number-placeholder="@Model.TrackingNumberPlaceholder"
+     data-form-submit-button="@Labels.TrackOrder"
+     data-result-status="@Labels.Status"
+     data-result-arrived-time="@Labels.ArrivedTime"
+     data-result-delivery-by="@Labels.Delivery"
+     data-result-plate="@Labels.Plate"
+     data-tracking-url="/api/sitecore/TrackYourOrderApi/tracking"
+     data-home-pin-url="@(Model.HomePin != null ? Model.HomePin.Src : string.Empty)"
+     data-delivery-pin-url="@(Model.DeliveryPin != null ? Model.DeliveryPin.Src : string.Empty)"
+     data-restaurant-pin-url= "@(Model.RestaurantPin != null ? Model.RestaurantPin.Src : string.Empty)"
+     data-init-location=""></div>

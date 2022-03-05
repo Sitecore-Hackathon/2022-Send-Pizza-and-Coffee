@@ -1,0 +1,51 @@
+---
+ID: "1b35a47e-36a8-4dbf-ba37-e370c2868bf9"
+Parent: "1b40167b-5b43-4d75-9c58-d04e7f5fc945"
+Template: "5b672865-55d2-413e-b699-fdfc7e732ccf"
+Path: /sitecore/Forms/MVP Swag Form/FormPage/ButtonSection/Radios
+DB: master
+SharedFields:
+- ID: "21ed172d-97e2-4ac4-8eaf-0a8860b891f4"
+  Hint: Default Selection
+  Value: "{88DBBAD5-2376-4B73-A3B3-81971085642A}"
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{EDBD38A8-1AE9-42EC-8CCD-F5B0E2998B4F}"
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: " btn btn-default"
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: E7E39DC68EFC4B53ACCB7670D3E7D88E
+- ID: "8a43af61-0812-4b37-a343-96cde3f12bb1"
+  Hint: Required
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220305T062247Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: "What is your issue?"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "266ffa93-e849-4796-990a-58b550dd39f8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220305T073458Z

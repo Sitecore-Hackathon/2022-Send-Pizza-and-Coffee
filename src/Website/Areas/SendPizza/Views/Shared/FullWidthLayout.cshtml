@@ -1,0 +1,51 @@
+﻿@using Constellation.Feature.PageTagging.Models
+@using Constellation.Foundation.ModelMapping
+@using Sitecore.Links
+@using Sitecore.ExperienceForms.Mvc.Html
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Sites
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    Layout = null;
+    var viewModel = MappingContext.Current.MapItemToNew<PageMetadata>(Model.Item);
+
+    // This is here because the default LinkManager config for this site does not force the inclusion of the server and scheme, which we need for Canonicals.
+    var options = LinkManager.GetDefaultUrlBuilderOptions();
+    options.AlwaysIncludeServerUrl = true;
+    options.LanguageEmbedding = LanguageEmbedding.Never;
+    options.LowercaseUrls = true;
+    options.EncodeNames = true;
+    options.Site = SiteContext.Current;
+    var canonical = LinkManager.GetItemUrl(Model.Item, options);
+}
+
+<!doctype html>
+<html lang="@Model.Item.Language.Name">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@viewModel.BrowserTitle</title>
+    <link rel="canonical" href="@canonical" />
+    @Html.Sitecore().Placeholder("HtmlHead")
+
+    <link rel="stylesheet" href="/dist/css/app.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<body>
+
+    @Html.Sitecore().Placeholder("PrimaryNavigation")
+    @Html.Sitecore().Placeholder("Masthead")
+    <main>
+        @Html.Sitecore().Placeholder("Rows")
+    </main>
+    @Html.Sitecore().Placeholder("Footer")
+    <script src="/dist/js/app.js"></script>
+
+    @Html.RenderFormStyles()
+    @Html.RenderFormScripts()
+</body>
+</html>

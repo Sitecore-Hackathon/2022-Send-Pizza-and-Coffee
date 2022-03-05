@@ -1,0 +1,40 @@
+---
+ID: "d7075b8a-684a-427f-a3b2-f16222ef6ea7"
+Parent: "35f5fe31-f606-445d-b1b0-d9e78362c870"
+Template: "35f5fe31-f606-445d-b1b0-d9e78362c870"
+Path: /sitecore/templates/Feature/Primary Content/Content Section Actions/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211124T202209Z
+    - ID: "3d7f1501-30aa-4844-9261-9641a65a63fa"
+      Hint: Primary Link
+      Value: |
+        <link text="Vivamus porta tempus" linktype="external" url="https://google.com" anchor="" title="Vivamus porta tempus" class="btn btn--primary" target="_blank" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rcabral
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rcabral
+    - ID: "6a0f9b18-2eff-4c22-b763-8e60c1e1c942"
+      Hint: Secondary Link
+      Value: |
+        <link text="Aenean egestas nulla" linktype="external" url="https://google.com" anchor="" title="Aenean egestas nulla" class="link link--primary" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1f0a1614-02f2-459e-b0b6-1a621e237122"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rcabral
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220218T162943Z

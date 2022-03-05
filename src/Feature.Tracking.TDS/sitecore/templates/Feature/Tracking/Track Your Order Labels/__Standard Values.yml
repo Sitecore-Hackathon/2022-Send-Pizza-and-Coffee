@@ -1,0 +1,47 @@
+---
+ID: "b4ff7897-a511-4026-8b73-f4f1362a7a0a"
+Parent: "fbc75554-0cef-4657-9eeb-6d853af6c84e"
+Template: "fbc75554-0cef-4657-9eeb-6d853af6c84e"
+Path: /sitecore/templates/Feature/Tracking/Track Your Order Labels/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220304T154917Z
+    - ID: "446d789f-ebb1-4829-9ec7-4d2e55dbde51"
+      Hint: Plate
+      Value: Plate
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "66432fa8-72f4-4cff-b0eb-59273844eb8c"
+      Hint: Track Order
+      Value: Track Order
+    - ID: "7fba43a3-0088-4585-9ca6-f3c60f5e6bb6"
+      Hint: Arrived time
+      Value: Arrived time
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "520a02c7-cbe9-4cdf-8586-847575a21269"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220304T154934Z
+    - ID: "ecbd292b-05dc-4d3c-a6da-c63a4177a404"
+      Hint: Status
+      Value: Status
+    - ID: "ed73ea8a-d3a0-4079-86d4-495987e5b99b"
+      Hint: Delivery
+      Value: Delivery
