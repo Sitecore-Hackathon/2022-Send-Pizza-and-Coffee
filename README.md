@@ -9,25 +9,23 @@
 
 
 ## Team name
-Send Pizza and Coffee
+Send Pizza and Coffee 🍕☕
 
 ## Category
-Sitecore MVP Site Improvement
+Best Addition to the Sitecore MVP Site
 
 ## Description
 
 One of the coolest rewards after becoming a Sitecore MVP has always been the Sitecore Swag we receive. However, due to the pandemic and changes from year to year, the delivery process can be a little confusing. We decided to make a "Sitecore MVP Swag tracker" page with some modules where the user could track the delivery status of their care package. 
 
-## Video link
-⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
-
-⟹ [Replace this Video link](#video-link)
+## Video
+[![Send Pizza Video](https://img.youtube.com/vi/QfzjREQgb8k/0.jpg)](https://www.youtube.com/watch?v=QfzjREQgb8k)
 
 
 
 ## Pre-requisites and Dependencies
 
-The page only requires a vanilla install of Sitecore 10.2 and deployment of the VS solution and syncronization of items. In addition, it requires the build and deployment of Front End assets to the site folder.
+The page only requires a vanilla install of Sitecore 10.2 and deployment of the VS solution and synchronization of items. In addition, it requires the build and deployment of Front End assets to the site folder.
 
 
 ## Installation instructions
@@ -40,7 +38,7 @@ purpose  - npm install
   - npm run prod
 - Manually copy the dist folder from the folder from the step above to the site webroot:
   - \src\FrontEnd\dist => \inetpub\wwwroot\sendpizza.dev\dist
-- Alternatevely, you can edit the file **CopyFEEAssets.bat** with your local paths and run as admin to automatically copy the assets to the right place.
+- Alternatively, you can edit the file **CopyFEEAssets.bat** with your local paths and run as admin to automatically copy the assets to the right place.
 
 
 
@@ -77,7 +75,7 @@ HTML 5 Websockets provides for a full duplex bidirectional channel for communica
 
 Building applications like location based intelligence, Geo fencing, track and trace becomes all the more simplified with HTML5 Websockets allowing developers to share location updates in real time and create amazing work flows with the real time data.
 
-With that in mind we used [Pusher.com](https://pusher.com/?utm_source=google_ads&utm_medium=homepage&utm_campaign=comp_brand_search&gclid=CjwKCAiAsYyRBhACEiwAkJFKooePiRSR-4pF8YL97zmlWVcxuTY5GS522Pb6ojcYwHZB2p6ZDOQNXBoCmTEQAvD_BwE) as a Websockets library because is it easy to use and implement with the short time for this hackathon. It is usefull to demo our purposes.
+With that in mind we used [Pusher.com](https://pusher.com/?utm_source=google_ads&utm_medium=homepage&utm_campaign=comp_brand_search&gclid=CjwKCAiAsYyRBhACEiwAkJFKooePiRSR-4pF8YL97zmlWVcxuTY5GS522Pb6ojcYwHZB2p6ZDOQNXBoCmTEQAvD_BwE) as a Websockets library because is it easy to use and implement with the short time for this hackathon. It is useful to demo our purposes.
 * Laravel App Running on private server to simulate push of data to our module:
   ![Laravel](docs/images/Laravel.png)
 * Sitecore tracking module receiving data to track delivery location:
@@ -88,7 +86,7 @@ Our workflow is easy to understand. Websockets provides a channel to broadcast t
 
 * On Track: Send the deliver man location in real-time, the idea is that each delivery man have a mobile application that sends the geo location.
 ![TrackingOnTheWay](docs/images/TrackingOnTheWay.png)
-* On Order Completed: This event notify to the webiste's user that the order is completed and delivered at the door.
+* On Order Completed: This event notify to the website's user that the order is completed and delivered at the door.
 ![TrackingComplete](docs/images/TrackingComplete.png)
 
 This workflow with more work will be more complex and fits the business needs but for the demo, I'm very proud of what we archived.
@@ -100,14 +98,14 @@ This workflow with more work will be more complex and fits the business needs bu
 
 As you can see we can add more rules and events in your system to make it better.
 
-Data sush as labels, headings, description for this module is fully managed within a datasource in Sitecore under the /_subcontent/ folder.
+Data such as labels, headings, description for this module is fully managed within a datasource in Sitecore under the /_subcontent/ folder.
 ![TrackingSitecore](docs/images/TrackingSitecore.png)
 
 
 ### **Contact Form**
 ![MVPSwagForm](docs/images/MVPSwagForm.png)
 
-In case the user is facing any issues with his delivery, we added a Sitecore Forms module to report and save his data into Sitecore and we attemped to style the form as close as possible to the theme of the page.
+In case the user is facing any issues with his delivery, we added a Sitecore Forms module to report and save his data into Sitecore and we attempted to style the form as close as possible to the theme of the page.
 ![MVPSwagFormSC1](docs/images/MVPSwagFormSC1.png)
 ![MVPSwagFormSC2](docs/images/MVPSwagFormSC2.png)
 
