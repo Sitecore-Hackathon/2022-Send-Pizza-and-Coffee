@@ -1,0 +1,152 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>fac43fb0-c18c-4d6f-98d5-c7a6708f67d5</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <CompactSitecoreItemsInProjectFile>True</CompactSitecoreItemsInProjectFile>
+    <AssemblyName>Website.Deploy.TDS</AssemblyName>
+    <Name>Website.Deploy.TDS</Name>
+    <RootNamespace>Website.Deploy.TDS</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+    <SourceWebVirtualPath>/Website.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{900746a9-5695-4c0b-9f64-cf95baba5adc}|Website\Website.csproj</SourceWebProject>
+    <SourceWebPhysicalPath>..\Website</SourceWebPhysicalPath>
+    <SerializationFormat>YML</SerializationFormat>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\Website.Deploy.TDS_Debug.xml</ValidationSettingsFilePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Feature.Alerts.TDS\Feature.Alerts.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Content.TDS\Feature.Content.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Mastheads.Core.TDS\Feature.Mastheads.Core.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Mastheads.TDS\Feature.Mastheads.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.PrimaryContent.Core.TDS\Feature.PrimaryContent.Core.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.PrimaryContent.TDS\Feature.PrimaryContent.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.RelatedContent.Core.TDS\Feature.RelatedContent.Core.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.RelatedContent.TDS\Feature.RelatedContent.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Testimonials.Core.TDS\Feature.Testimonials.Core.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Testimonials.TDS\Feature.Testimonials.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Timeline.Core.TDS\Feature.Timeline.Core.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Feature.Timeline.TDS\Feature.Timeline.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Foundation.Navigation.TDS\Foundation.Navigation.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Foundation.Pages.TDS\Foundation.Pages.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Foundation.Videos.TDS\Foundation.Videos.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.ZodiacManual.TDS\Project.SendPizza.TDS.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Website\Website.csproj">
+      <Project>{900746a9-5695-4c0b-9f64-cf95baba5adc}</Project>
+      <Name>Website</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundledProject Include="..\Feature.Alerts.TDS\Feature.Alerts.TDS.scproj">
+      <ProjectId>{f118f49f-786f-4f0c-8eeb-630867fd659a}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Content.TDS\Feature.Content.TDS.scproj">
+      <ProjectId>{59f7229d-faae-47a7-8222-334a764c20b0}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Mastheads.Core.TDS\Feature.Mastheads.Core.TDS.scproj">
+      <ProjectId>{00052b49-32e4-475a-b695-28d6e0380ab3}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Mastheads.TDS\Feature.Mastheads.TDS.scproj">
+      <ProjectId>{66731899-27e8-48e9-9747-eb3daeb0d1e1}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Navigation.TDS\Feature.Navigation.TDS.scproj">
+      <ProjectId>{234efcce-24ae-40fb-855a-dc7717f21c72}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.PrimaryContent.Core.TDS\Feature.PrimaryContent.Core.TDS.scproj">
+      <ProjectId>{944e7a75-c39d-4253-835a-e64eb07949d9}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.PrimaryContent.TDS\Feature.PrimaryContent.TDS.scproj">
+      <ProjectId>{07b9c80d-8904-4335-a835-7e29c21ff47c}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.RelatedContent.Core.TDS\Feature.RelatedContent.Core.TDS.scproj">
+      <ProjectId>{de8a2712-9bfe-415e-b85e-cfda3b96cfd8}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.RelatedContent.TDS\Feature.RelatedContent.TDS.scproj">
+      <ProjectId>{fafba83a-b471-41eb-ba92-068f8e59a7cb}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Testimonials.Core.TDS\Feature.Testimonials.Core.TDS.scproj">
+      <ProjectId>{bb1515da-64ec-41ec-b78f-72a1a3998250}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Testimonials.TDS\Feature.Testimonials.TDS.scproj">
+      <ProjectId>{aa2847fd-0ecd-4e92-9f38-ad3990761926}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Timeline.Core.TDS\Feature.Timeline.Core.TDS.scproj">
+      <ProjectId>{bdeebbd7-403c-48c5-b2cb-3a1360a82862}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Feature.Timeline.TDS\Feature.Timeline.TDS.scproj">
+      <ProjectId>{c4701ef2-cbd4-4b58-87e9-d466cfbf1e4b}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Foundation.Navigation.TDS\Foundation.Navigation.TDS.scproj">
+      <ProjectId>{750a592e-0b90-46ff-b9d8-0a56a380f2ca}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Foundation.Pages.TDS\Foundation.Pages.TDS.scproj">
+      <ProjectId>{359e0310-a030-4701-a343-4d8ba4689d6f}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Foundation.Videos.TDS\Foundation.Videos.TDS.scproj">
+      <ProjectId>{6979074a-d7d4-40d8-a837-176256bd3fab}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Project.ZodiacManual.TDS\Project.SendPizza.TDS.scproj">
+      <ProjectId>{211ae8fe-8e59-494e-99c8-032491afc0b2}</ProjectId>
+    </BundledProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>

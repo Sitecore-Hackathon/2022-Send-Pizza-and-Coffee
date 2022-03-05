@@ -1,0 +1,10 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Content.Models.ContextContentModel>
+
+<div class="row">
+	<div class="col-12">
+		@if (this.IsEditing || Model.Copy?.ToString().Length > 0)
+		{
+			<div>@Model.Copy</div>
+		}
+	</div>
+</div>

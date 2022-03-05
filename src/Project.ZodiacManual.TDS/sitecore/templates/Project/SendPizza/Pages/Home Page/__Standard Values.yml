@@ -1,0 +1,69 @@
+---
+ID: "1eac7584-86be-4578-81f3-c724518fa337"
+Parent: "84e73e6c-bd1c-43df-b4dd-3f9924be6007"
+Template: "84e73e6c-bd1c-43df-b4dd-3f9924be6007"
+Path: /sitecore/templates/Project/SendPizza/Pages/Home Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{29339939-4C31-4DDA-8F64-0A3204E4F0AA}">
+        <r
+          ds="{585505F7-F0A7-4EB5-962D-E9321C9C30F3}"
+          id="{524F6302-7740-413D-B564-BA79B194C09D}"
+          par=""
+          ph="PrimaryNavigation"
+          uid="{297DF031-29C7-4DF5-9E4D-04DE353DB7AA}"
+          ccb="Clear on publish" />
+        <r
+          ds=""
+          id="{FE639020-4A46-4264-8AC3-07B270D6BC3F}"
+          par=""
+          ph="Masthead"
+          uid="{28DC518F-543E-40CC-AB91-856C030291C3}"
+          ccb="Clear on publish" />
+        <r
+          id="{07235006-AEB6-453B-867C-032048B3A826}"
+          ph="Rows"
+          uid="{1A34A833-3633-4555-B186-D2FBD9A4A520}" />
+        <r
+          id="{73A4A572-5BCD-4308-82BE-55F232CD5C31}"
+          ph="Rows"
+          uid="{280480A8-3DEE-4BF9-BD77-F3B5A1875D49}" />
+        <r
+          id="{1D696065-E4FB-4991-9286-769C80EAA179}"
+          ph="Footer"
+          uid="{4BF2F074-2B02-4E31-A77B-8E2EFA2C61A2}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220305T051125Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd6a7db0-eac3-4005-ac2e-3e1d21b70323"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220305T052821Z

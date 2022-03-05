@@ -1,0 +1,30 @@
+---
+ID: "d9ee285a-476e-4bc2-8e17-3bda3e7649ed"
+Parent: "6f63f40c-260a-4a58-99c7-53113845eba1"
+Template: "ac590528-d3d9-4764-9175-eed2ea01898d"
+Path: /sitecore/content/Zodiac/SendPizza/home/_subcontent/MVP Swag Form Container
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220305T052954Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "08809a66-2f94-4d95-b195-dc5562d1681d"
+    - ID: "95e69676-fe55-4c38-9cb5-2e861fa1434d"
+      Hint: Description
+      Value: Mishaps can happen. Please fill the following form if you are having any issues with your care package.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220305T063709Z
+    - ID: "fd200426-8e93-4abb-b291-c7f9b84551a8"
+      Hint: Title
+      Value: "Didn't receive your swag yet?"

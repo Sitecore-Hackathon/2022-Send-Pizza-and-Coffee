@@ -1,0 +1,28 @@
+---
+ID: "f2c0bf0a-7372-463c-a970-020ed953f88a"
+Parent: "b6936fc3-c6cb-42fc-b362-fcc18cb00472"
+Template: "191dc1a3-1a43-46d6-b831-13e0b1de6c8a"
+Path: /sitecore/content/Zodiac/SendPizza/Navigation/Footer Links/Hackathon
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220304T203948Z
+    - ID: "3294acd7-483b-44bb-bef5-1588745d3b2c"
+      Hint: Link
+      Value: |
+        <link text="Sitecore Hackathon" linktype="external" url="http://www.sitecorehackathon.org/sitecore-hackathon-2022/" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "07d2fb57-ccd4-4165-9a2d-a28e95d5cc3a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220305T065857Z

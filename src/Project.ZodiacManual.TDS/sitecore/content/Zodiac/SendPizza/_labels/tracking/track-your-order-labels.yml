@@ -1,0 +1,35 @@
+---
+ID: "7dbb44b9-9f4c-4ab5-8e2f-bf92c12feb55"
+Parent: "6a0256a2-96e8-4933-9c94-e20e5f7dd89c"
+Template: "fbc75554-0cef-4657-9eeb-6d853af6c84e"
+Path: "/sitecore/content/Zodiac/SendPizza/_labels/tracking/track-your-order-labels"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220304T154847Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "66432fa8-72f4-4cff-b0eb-59273844eb8c"
+      Hint: Track Order
+      Value: Track Package
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f0a24d9-ce89-4871-a87b-3ce4d9a4cc1a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220305T080326Z

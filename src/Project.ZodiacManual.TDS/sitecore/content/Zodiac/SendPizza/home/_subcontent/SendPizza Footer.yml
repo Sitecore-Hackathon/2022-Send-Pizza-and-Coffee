@@ -1,0 +1,35 @@
+---
+ID: "07c81f9f-cf62-4ac3-a5d9-493e5bcfc3ec"
+Parent: "6f63f40c-260a-4a58-99c7-53113845eba1"
+Template: "c3c77ee4-c869-46d5-a698-756e5d520d7d"
+Path: /sitecore/content/Zodiac/SendPizza/home/_subcontent/SendPizza Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220304T201444Z
+    - ID: "7c157995-0afe-4c85-896e-42a48e5ddcce"
+      Hint: Copyright
+      Value: Copyright Send Pizza©
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "867f3739-2b88-4cdd-8909-c8aeef5ef53f"
+    - ID: "8e858ade-ce1a-4d4c-8f38-7ea747f292b4"
+      Hint: Footer Links
+      Type: Multilist
+      Value: |
+        {80D4E892-A457-45FE-95FF-1BF745EC4B94}
+        {F2C0BF0A-7372-463C-A970-020ED953F88A}
+        {9B72459C-3E2A-4390-9A6E-221786643344}
+        {700EB8C0-802D-47D9-AF32-96AB1BEA9C45}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220305T070017Z

@@ -1,0 +1,36 @@
+---
+ID: "4d7a314c-8544-4e12-aa2a-a9e5cfce0690"
+Parent: "191dc1a3-1a43-46d6-b831-13e0b1de6c8a"
+Template: "191dc1a3-1a43-46d6-b831-13e0b1de6c8a"
+Path: /sitecore/templates/Project/SendPizza/Navigation/Navigation Link/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220304T203321Z
+    - ID: "3294acd7-483b-44bb-bef5-1588745d3b2c"
+      Hint: Link
+      Value: |
+        <link text="Home" anchor="" linktype="internal" class="" title=""  querystring="" id="{8CAB87AD-8291-4FD3-BD77-EE0D7B653F54}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c39e47ae-9d0b-4826-b896-269c0021dcb0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220304T203656Z

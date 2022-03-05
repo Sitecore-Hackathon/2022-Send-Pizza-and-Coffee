@@ -1,0 +1,8 @@
+﻿@using Sitecore.Mvc
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Feature.Mastheads.Models.MastheadModel>
+
+@{
+	this.ViewData.Add("position", "right");
+}
+
+@{ Html.RenderPartial("/Areas/Feature_Mastheads/Views/MastheadWithMedia.cshtml", this.Model, this.ViewData); }
