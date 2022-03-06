@@ -76,7 +76,7 @@ HTML 5 Websockets provides for a full duplex bidirectional channel for communica
 Building applications like location based intelligence, Geo fencing, track and trace becomes all the more simplified with HTML5 Websockets allowing developers to share location updates in real time and create amazing work flows with the real time data.
 
 With that in mind we used [Pusher.com](https://pusher.com/?utm_source=google_ads&utm_medium=homepage&utm_campaign=comp_brand_search&gclid=CjwKCAiAsYyRBhACEiwAkJFKooePiRSR-4pF8YL97zmlWVcxuTY5GS522Pb6ojcYwHZB2p6ZDOQNXBoCmTEQAvD_BwE) as a Websockets library because is it easy to use and implement with the short time for this hackathon. It is useful to demo our purposes.
-* Laravel App Running on private server to simulate push of data to our module:
+* Cloud App used to push data into our module. For our proof of concept, we are using a Laravel App Running on a private server to simulate real world data:
   ![Laravel](docs/images/Laravel.png)
 * Sitecore tracking module receiving data to track delivery location:
   ![PusherData](docs/images/PusherData.png)
